@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Lexend',sans-serif;
+    min-height: 100vh;
+    box-sizing: border-box;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+}
+main{
+    min-height: 100vh;
+    /* padding: 1.5rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-container {
+    color: white;
+    margin: 1.5rem;
+    display: flex;
+    /* background-color: hotpink; */
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 900px;
+    /* margin: auto; */
+    /* margin-inline: auto; */
+    /* margin-block: auto; */
+}
+.card{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* flex-basis: 100%; */
+}
+
+.card img{
+    width: 64px;
+    height: 40px;
+}
+.card h2 {
+    font-family: "Big Shoulders", sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+.card p{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.75;
+    margin-top: 2.5em;
+}
+.card a{
+    /* width: max-content; */
+    border: 2px solid white;
+    padding: 1em 2em;
+    margin-top: auto;
+    border-radius: 2em;
+    /* align-self: center; */
+    margin-right: auto;
+}
+
+.orange-card {
+    background-color: hsl(31, 77%, 52%);
+    /* border-top-left-radius: 8px;
+    border-top-right-radius: 8px; */
+    /* border-radius: 8px 8px 0 0; */
+}
+
+.green-card {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.dark-green-card {
+    background-color: hsl(179, 100%, 13%);
+    /* border-radius: 0 0 8px 8px; */
+}
+
+
+@media (max-width: 800px) {
+    .card-container{
+        flex-direction: column;
+        max-width: 400px;
+    }
+
+    .card{
+        width: unset;
+        max-width: auto;
+    }
+}
