@@ -1,0 +1,77 @@
+/* Google fonts Popping */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card{
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+    background: #fff;
+    color: #333;
+}
+
+.cover-pic{
+    display: block;
+    width: 100%;
+}
+
+.profile-pic{
+    width: 140px;
+    border-radius: 50%;
+    margin-top: -70px;
+    box-shadow: 0 0 0 0px #ff004f;
+    transition: box-shadow .5s;
+}
+
+.profile-pic:hover{
+    box-shadow: 0 0 0 5px #ff004f;
+}
+
+.profile-card h1{
+    font-weight: 600;
+}
+
+.follow-btn{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #ff004f;
+    color: #555;
+    padding: 6px 35px;
+    margin: 25px 0;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.row h2{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.view-btn{
+    display: inline-block;
+    width: 100%;
+    background: #ff004f;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 0;
+    margin-top: 20px;
+}
