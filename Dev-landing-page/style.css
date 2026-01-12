@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+}
+
+.main {
+    width: 100%;
+    background-image: url(images/developer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+
+.main-container img {
+    max-width: 900px;
+    width: 100%;
+}
+
+
+
+.main-container div {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 32px;
+
+
+}
+
+.main-container h1 {
+    font-size: 72px;
+    font-weight: 400;
+
+}
+
+.heading span {
+    font-size: 32px;
+
+}
+.works {
+    background-color: #161619;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.works h1 {
+    font-size: 72px;
+    font-weight: 400;
+    /* margin-top: -112px; */
+    /* text-align: center; */
+}
+
+.works h1 span {
+    font-size: 120px;
+}
+
+.services {
+    margin-block: 120px 80px;
+}
+
+.services .services-card-container {
+    min-width: 900px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 53px;
+    margin-bottom: 73px;
+    margin-right: 32px;
+    margin-inline: auto;
+}
+
+.services-card-container .service-card {
+    
+    width: 100%; 
+    border-radius: 16px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.services-card-container .service-card img {
+    max-width: 100%;
+    height: 192px;
+}
+
+.services-card-container .service-description {
+    margin-top: 23px;
+    margin-bottom: 50px;
+    margin-inline: 10px;
+
+}
+
+.service-description h3 {
+    margin-bottom: 17px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.service-description p {
+    line-height: 1.2;
+    font-size: 16px;
+}
+
+.talk-with-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.info {
+    background-color: #515603;
+    color: #FFFFFF;
+}
+
+.info div {
+    width: 70%;
+    margin-inline: 100px;
+    margin-top: 40px;
+    margin-bottom: 130px;
+}
+
+.info h1 {
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+
+.info p {
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 8px;
+}
+
+.info .email {
+    font-size: 18px;
+    /* margin-top: 120px; */
+}
+
+.info.about-me {
+    background-color: #722300;
+}
+
+.footer {
+    grid-column-start: span 2;
+    background-color: #000000;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    padding-block: 4rem;
+}
+
+
