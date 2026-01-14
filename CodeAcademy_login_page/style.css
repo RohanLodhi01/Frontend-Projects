@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+}
+
+main {
+    /* max-width: 1200px; */
+    width: 100%;
+    min-height: 100vh;
+}
+
+main .form-container {
+    /* background-color: orange; */
+    max-width: 352px;
+    margin-inline: 20px;
+    margin-inline: auto;
+    /* padding-inline: 100px; */
+    margin-block: 100px;
+    /* padding: 10px; */
+}
+
+.form-container .heading {
+    font-size: 32px;
+    padding-bottom: 16px;
+}
+
+
+.input-container {
+    font-size: 12px;
+}
+
+.input-container h3 {
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.input-container .input-field {
+    padding-block: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 350px;
+    min-height: 42px;
+    border-radius: 5px;
+}
+
+.input-container input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+.login-container {
+    margin: 10px 0;
+}
+
+.login-container span {
+    color: blue;
+    font-weight: 500;
+}
+
+.login-container .login-btn {
+    background-color: blue;
+    width: 350px;
+    height: 40px;
+}
+
+.login-btn {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.login-btn:hover {
+       box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3) ,-5px -5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.login-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.login_anohter_account {
+    margin-top: 30px;
+}
+
+.login_anohter_account span {
+    color: black;
+}
+
+.social-media-handles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.img-box {
+    min-width: 50px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-box:hover {
+    transform: scale(1.08);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3) ,-5px -5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.img-box img {
+    max-width: 24px;
+}
+
+.sign-up {
+    text-align: right;
+}
