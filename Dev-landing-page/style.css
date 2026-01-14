@@ -160,7 +160,8 @@
 }
 
 
-/* this is tutorial code i practice */
+/* This IS TUTORIAL CODE I PRACTICE */
+
 * {
     margin: 0;
     padding: 0;
@@ -189,12 +190,16 @@ body {
     padding-top: 64px;
     padding-left: 16px;
 }
+.text-container h2{
+    font-weight: 400;
+}
 
 .lg-text {
     font-size: 72px;
     font-weight: 400;
 }
 
+A
 .black-box {
     background-color: rgba(22, 22, 25, 1);
     padding: 20px;
@@ -234,11 +239,12 @@ body {
     transition: 0.2s ease-in;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.04);
     box-shadow: 3px 5px 5px rgba(1, gree1, blu1, 0.3);
     transition: 0.2s ease-out;
 }
+
 .card-content {
     padding: 20px;
 }
@@ -273,35 +279,48 @@ body {
     font-weight: 300;
 }
 
-.contact p,.about p{
+.contact p,
+.about p {
     margin-bottom: 20px;
 }
 
-footer{
+footer {
     background-color: rgba(0, 0, 0, 1);
     color: rgba(255, 255, 255, 1);
     padding: 20px;
     text-align: center;
 }
 
-@media (max-width: 820px){
-    .hero-section{
+@media (max-width: 820px) {
+    .hero-section {
         min-height: 50vh;
     }
 
-    .text-container{
+    .text-container {
         padding: 10px;
         text-align: center;
     }
 
-    .lg-text{
+    .lg-text {
         font-size: 32px;
     }
-    .black-box h2{
+
+    .black-box h2 {
         font-size: 24px;
     }
-    .black-box h2 .highlight{
+
+    .black-box h2 .highlight {
         font-weight: 400;
         font-size: 32px;
     }
+
+    .bottom-section {
+        flex-direction: column;
+    }
+
+    .contact h2,
+    .about h2 {
+        font-size: 32px;
+    }
+
 }
