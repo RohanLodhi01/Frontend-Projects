@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+header{
+    /* background-color: red; */
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+    color: #222729;
+}
+
+nav h2{
+    font-size: 2.5rem;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222729;
+
+}
+
+
+nav .contact_us{
+    background-color: #313336;
+    color: white;
+    padding: 0.8rem 1rem;
+    border-radius: 3rem;
+    flex-wrap: nowrap;
+}
+
+main{
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+.hero_section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(600px,1fr));
+}
+
+.hero_content{
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+.hero_content h1{
+    font-size: 5rem;
+    line-height: 1.5;
+}
+.hero_section img{
+    width: 100%;
+
+}
+
