@@ -171,3 +171,36 @@ footer ul li{
     font-size: 1.8rem;
 }
 
+/* post page */
+.banner_image img{
+    width: 100%;
+}
+
+.post h1{
+    font-size: 3rem;
+}
+
+.post hr{
+    margin: 3rem 0;
+}
+
+.about_author{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+article p{
+    color: #718096;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
