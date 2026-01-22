@@ -9,7 +9,6 @@ body {
 }
 
 header {
-    /* background-color: red; */
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -58,8 +57,6 @@ main {
 .hero_section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-    /* background-image: url(img/pngtree-headphone-icon-design-template-vector-png-image_1020052.jpg);
-    background-repeat: no-repeat; */
 
 }
 
