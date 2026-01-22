@@ -108,6 +108,8 @@ main {
     border: none;
 }
 
+
+
 footer {
     min-height: 60vh;
     background-color: #343334;
@@ -121,9 +123,10 @@ footer .footer-content-container {
     padding: 8rem 4rem;
 }
 
-.footer-content-container div{
+.footer-content-container div {
     min-width: 200px;
 }
+
 footer ul {
     list-style: none;
 }
@@ -138,7 +141,18 @@ footer a li {
     line-height: 1.6;
 }
 
-footer hr{
+footer hr {
     width: 90%;
     margin-inline: auto;
+}
+
+
+/* background img */
+.headphone2 {
+    position: absolute;
+    opacity: 0.2;
+    left: 30%;
+    /* top: 70%; */
+    bottom: -60%;
+    z-index: -1;
 }
