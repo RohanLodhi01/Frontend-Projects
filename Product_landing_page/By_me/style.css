@@ -16,7 +16,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 2rem 0;
+    margin: 2rem;
     color: #222729;
 }
 
@@ -111,8 +111,10 @@ main {
 
 
 footer {
-    min-height: 60vh;
+    /* min-height: 60vh; */
+    /* width: 100%; */
     background-color: #343334;
+    /* overflow: hidden; */
 }
 
 footer .footer-content-container {
@@ -148,6 +150,7 @@ footer hr {
 
 
 /* background img */
+
 .headphone2 {
     position: absolute;
     opacity: 0.2;
@@ -155,4 +158,21 @@ footer hr {
     /* top: 70%; */
     bottom: -60%;
     z-index: -1;
+}
+
+@media (max-width: 720px) {
+    .hero_content h1 {
+        font-size: 3rem;
+    }
+    .headphone2{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 400px){
+    .blue_headphone{
+        max-width: 320px;
+    }
+
 }
