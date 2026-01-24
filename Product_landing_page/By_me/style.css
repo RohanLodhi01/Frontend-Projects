@@ -8,6 +8,9 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
 header {
     max-width: 1300px;
     margin: 0 auto;
@@ -50,7 +53,7 @@ nav .contact_us {
 main {
     max-width: 1300px;
     margin: 0 auto;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 
 }
 
@@ -111,10 +114,9 @@ main {
 
 
 footer {
-    /* min-height: 60vh; */
-    /* width: 100%; */
     background-color: #343334;
-    /* overflow: hidden; */
+    margin-top: 4rem;
+    padding: 0;
 }
 
 footer .footer-content-container {
@@ -143,11 +145,16 @@ footer a li {
     line-height: 1.6;
 }
 
-footer hr {
-    width: 90%;
-    margin-inline: auto;
+footer .horizontal-line {
+    /* color: white; */
+    border: 2px solid transparent;
+    padding: 20px;
 }
 
+footer .horizontal-line hr{
+    width: 90%;
+    margin: 0 auto;
+}
 
 /* background img */
 
@@ -155,24 +162,84 @@ footer hr {
     position: absolute;
     opacity: 0.2;
     left: 30%;
-    /* top: 70%; */
+    top: 60%;
     bottom: -60%;
     z-index: -1;
 }
 
-@media (max-width: 720px) {
+.nav-menu {
+    display: none;
+}
+
+@media (max-width: 800px) {
     .hero_content h1 {
         font-size: 3rem;
     }
-    .headphone2{
+
+    .headphone2 {
         display: none;
     }
-    
+
+    .hero_section .hero_content hr {
+        left: 20rem;
+    }
+
+    .hero_section img {
+        width: 80%;
+    }
+
+
+
 }
 
-@media (max-width: 400px){
-    .blue_headphone{
+
+@media (max-width: 520px) {
+    .blue_headphone {
         max-width: 320px;
     }
+
+    nav h2 {
+        font-size: 1rem;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .nav-menu {
+        display: block;
+    }
+
+    .hero_content {
+        margin-top: 1rem;
+        width: 90%;
+        margin-inline: auto;
+    }
+
+    .hero_content h1 {
+        font-size: 2rem;
+        margin-bottom: .5rem;
+    }
+
+    .hero_section {
+        display: inline-block;
+    }
+
+    .hero_content p {
+        font-size: 1rem;
+
+    }
+
+    .hero_content .read_btn {
+        font-size: .8rem;
+        padding: .8rem;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    footer .footer-content-container {
+        padding: 4rem 2rem;
+    }
+
 
 }
