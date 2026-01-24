@@ -123,6 +123,7 @@ footer .footer-content-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-items: center;
+    align-content: center;
     gap: 2rem;
     margin-bottom: 4rem;
 }
@@ -156,9 +157,9 @@ footer  hr{
 
 .headphone2 {
     position: absolute;
-    opacity: 0.2;
+    opacity: .2;
     right: 28%;
-    top: 60%;
+    top: 50%;
     z-index: -1;
 }
 
@@ -172,7 +173,8 @@ footer  hr{
     }
 
     .headphone2 {
-        display: none;
+        position: absolute;
+        top: 80%;
     }
 
     .hero_section .hero_content hr {
@@ -188,7 +190,7 @@ footer  hr{
 }
 
 
-@media (max-width: 520px) {
+@media (max-width: 500px) {
     .blue_headphone {
         max-width: 320px;
     }
@@ -233,7 +235,10 @@ footer  hr{
     }
 
     footer {
-        padding: 4rem 2rem;
+        padding: 2rem;
+    }
+    footer .footer-content-container {
+        gap: 1rem;
     }
 
 
