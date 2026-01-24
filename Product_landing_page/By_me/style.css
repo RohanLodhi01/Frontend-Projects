@@ -115,8 +115,8 @@ main {
 
 footer {
     background-color: #343334;
-    margin-top: 4rem;
-    padding: 0;
+    /* margin-top: 5rem; */
+    padding: 8rem;
 }
 
 footer .footer-content-container {
@@ -124,7 +124,7 @@ footer .footer-content-container {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-items: center;
     gap: 2rem;
-    padding: 8rem 4rem;
+    margin-bottom: 4rem;
 }
 
 .footer-content-container div {
@@ -145,14 +145,10 @@ footer a li {
     line-height: 1.6;
 }
 
-footer .horizontal-line {
-    /* color: white; */
-    border: 2px solid transparent;
-    padding: 20px;
-}
 
-footer .horizontal-line hr{
-    width: 90%;
+
+footer  hr{
+    /* width: 90%; */
     margin: 0 auto;
 }
 
@@ -161,9 +157,8 @@ footer .horizontal-line hr{
 .headphone2 {
     position: absolute;
     opacity: 0.2;
-    left: 30%;
+    right: 28%;
     top: 60%;
-    bottom: -60%;
     z-index: -1;
 }
 
@@ -237,7 +232,7 @@ footer .horizontal-line hr{
         margin-top: 1rem;
     }
 
-    footer .footer-content-container {
+    footer {
         padding: 4rem 2rem;
     }
 
