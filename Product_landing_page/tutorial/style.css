@@ -32,6 +32,7 @@ li {
 
 .nav_container .nav {
     display: flex;
+    justify-self: flex-end;
 }
 
 .nav_container .nav a {
@@ -95,3 +96,44 @@ li {
     opacity: 0.1;
     z-index: -1;
 }
+
+/* footer */
+
+footer {
+    background-color: red;
+    margin: 100px 0 0 0;
+    background: #333;
+    padding: 100px;
+}
+
+footer .main_container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px 30px;
+}
+
+.main_container div h4 {
+    color: rgb(41, 100, 177);
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.main_container div li{
+    cursor: pointer;
+    margin: 3px 0;
+    color: #e7e7e7;
+}
+
+hr{
+    margin: 20px 0;
+    opacity: 0.4;
+}
+
+.headphone2{
+    position: absolute;
+    top: 60%;
+    right: 28%;
+    opacity: .1;
+    z-index: -1;
+}
+
