@@ -195,8 +195,8 @@ nav li:hover {
     display: flex;
     flex-direction: column;
     border-radius: 0.5rem;
-    overflow: hidden;
     transition: 0.2s ease-in-out;
+    overflow: hidden;
 }
 
 /* .card img{
@@ -232,12 +232,107 @@ nav li:hover {
 
 }
 
-.card_content h3{
+.card_content h3 {
     text-align: center;
 }
 
 /* Contact Sectino */
 
-#contact{
+#contact {
     background: var(--dark-color);
+}
+
+#contact h2 {
+    font-size: 6rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#contact .container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.top_contact {
+    max-width: 800px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+}
+
+.contact_way {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.contact_way i {
+    font-size: 3rem;
+}
+
+.contact_way h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.bottom_contact {
+    max-width: 400px;
+    gap: 1rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+}
+
+/* Footer */
+footer {
+    background: var(--darker-color);
+    padding: 2rem;
+    color: white;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+@media (max-width: 786px) {
+    html {
+        font-size: 40%;
+    }
+
+    #hero .container {
+        flex-direction: column;
+    }
+
+    .hero_image {
+        display: grid;
+        place-items: center;
+        /* display: flex; */
+        /* place-content: center; */
+    }
+
+    #contact .container {
+        height: 70vh;
+    }
+
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 32%;
+    }
+
+    #hero .container {
+        flex-direction: column;
+    }
+
+    .hero_image{
+        display: grid;
+        place-items: center;
+    }
+
+    #contact .container{
+        height: 50vh;
+    }
+
 }
