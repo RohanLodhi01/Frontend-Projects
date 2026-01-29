@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1 {
+    background-image: url(img/image1.png);
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url(img/image2.png);
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url(img/image3.png);
+    min-height: 400px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.pimg2 .textBg,.pimg3
+.textBg {
+    background-color: rgba(49, 53, 52, 0.3);
+}
+
+.textBg {
+    background-color: #313534;
+    color: #fff;
+    padding: 20px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+section h2 {
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.section_light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section_dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+@media (max-width: 500px) {
+    span {
+        font-size: 12px;
+    }
+}
