@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <main style="display: none;">
+    <!-- <main style="display: none;">
         <form class="form-container" action="">
             <h1 class="heading">Log in to Codecademy</h1>
             <div class="form-input">
@@ -54,20 +54,22 @@
                 <a href="">Not a member yet?<strong>Sign up free</strong></a>
             </div>
         </form>
-    </main>
+    </main> -->
     <!-- tutorial code -->
 
     <div class="container">
         <div class="header">
             <h1>Login to CodeAcademy</h1>
         </div>
-        <form action="">
+        <form action="" id="form">
             <label for="">Email or Username</label>
-            <input type="text" name="" id="">
+            <input type="text" name="" id="user-email" placeholder="Enter email or username">
+            <small id="email-error"></small>
             <label for="">Password</label>
-            <input type="password" name="" id="">
+            <input type="password" name="" id="user-password" placeholder="enter password">
+            <small id="password-error"></small>
             <a href="#">I forgot my password</a>
-            <input type="submit" value="Log In">
+            <input type="submit" id="loginBtn" value="Log In">
         </form>
         <div class="footer">
             <h3>Login with another account</h3>
@@ -82,6 +84,7 @@
         </div>
 
     </div>
+    <script src="script.js" defer async="false"></script>
 </body>
 
 </html>
